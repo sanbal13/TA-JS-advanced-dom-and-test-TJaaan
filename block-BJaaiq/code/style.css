@@ -59,13 +59,13 @@ body {
 *::after {
     box-sizing: border-box;
 }
-h2 {
+blockquote {
     font-size: 2rem;
     margin-top: 8rem;
     margin-bottom: 2rem;
     margin-left: 1rem;
 }
-p {
-    font-size: 1.3rem;
+cite {
+    font-size: 1.1rem;
     margin-left: 1rem;
 }
