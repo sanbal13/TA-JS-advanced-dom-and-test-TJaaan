@@ -44,6 +44,10 @@ function createUI() {
         }
 
         function handleDragEnd(e) {
+            var listItens = document.querySelectorAll('.draggable');
+            listItens.forEach((item) => {
+              item.classList.remove('over');
+            });
             this.style.opacity = '1';
         }
 
@@ -51,14 +55,15 @@ function createUI() {
             this.classList.add('over');
         }
         function handleDragLeave(e) {
+            e.stopPropagation();
             this.classList.remove('over');
         }
         function handleDragOver(e) {
+            e.preventDefault();
+            e.dataTransfer.dropEffect = 'move';
             this.classList.add('over');
         }
-        function handleDrop(e) {
-            e.stopPropagation();
-           
+        function handleDrop(e) {                       
            if(dragSrcEl !== this) {
                dragSrcEl.innerHTML = this.innerHTML;
                this.innerHTML = e.dataTransfer.getData('text/html');
