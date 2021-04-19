@@ -105,5 +105,6 @@ main {
     margin: 1rem auto;
 }
 .over {
-    border: 3px dotted #666;
+    /* border: 3px dotted #666; */
+    width: 30rem;
 }
