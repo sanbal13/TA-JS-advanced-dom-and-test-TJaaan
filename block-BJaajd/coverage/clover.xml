@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1619431117874" clover="3.2.0">
+  <project timestamp="1619431117874" name="All files">
+    <metrics statements="24" coveredstatements="22" conditionals="1" coveredconditionals="1" methods="11" coveredmethods="9" elements="36" coveredelements="32" complexity="0" loc="24" ncloc="24" packages="1" files="4" classes="4"/>
+    <file name="calculator.js" path="/home/santosh/Documents/altCampus/TA-JS-advanced-dom-and-test-TJaaan/block-BJaajd/code/calculator.js">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="24" count="7" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+    </file>
+    <file name="cart.js" path="/home/santosh/Documents/altCampus/TA-JS-advanced-dom-and-test-TJaaan/block-BJaajd/code/cart.js">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="mock.js" path="/home/santosh/Documents/altCampus/TA-JS-advanced-dom-and-test-TJaaan/block-BJaajd/code/mock.js">
+      <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
+    <file name="removeFromArray.js" path="/home/santosh/Documents/altCampus/TA-JS-advanced-dom-and-test-TJaaan/block-BJaajd/code/removeFromArray.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
